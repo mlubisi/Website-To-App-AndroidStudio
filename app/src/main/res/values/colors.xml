@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="keiblue_200">#2196F3</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#343434</color>
+    <color name="blackblack">#000000</color>
+    <color name="gray">#B7B7B7</color>
+    <color name="graygray">#434343</color>
+    <color name="gradegray">#2C3E50</color>
+    <color name="silver">#BDC3C7</color>
+    <color name="red">#F44336</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#008CBA</color>
+    <color name="purple">#661155</color>
+
+
+    <color name="colorTransparentWhite">#0CFFFFFF</color>
+    <color name="colorTransparentBlack">#0C343434</color>
+</resources>

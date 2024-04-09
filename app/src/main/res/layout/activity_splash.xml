@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/mysplashbg"
+    tools:context=".SplashActivity">
+
+    <Button
+        android:layout_width="221dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:onClick="closeSplash"/>
+    <ImageView
+        android:id="@+id/mysplash"
+        android:layout_width="221dp"
+        android:layout_height="423dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/gh34logo_framed" />
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_alignBottom="@id/mysplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gr8House34"
+        android:textSize="18dp"
+        android:textColor="@color/gray" />
+
+</RelativeLayout>
